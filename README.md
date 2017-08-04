@@ -147,8 +147,8 @@ Output:
 
 ```bash
 START RequestId: ... Version: $LATEST
-Boto3 Version: 1.4.4
-Botocore Version: 1.5.92
+[INFO]	2017-08-04T18:57:22.891Z	2e29785e-c4ef-41cb-ab8c-2fbe56aec341	Boto3 Version: 1.4.4
+[INFO]	2017-08-04T18:57:22.891Z	2e29785e-c4ef-41cb-ab8c-2fbe56aec341	Botocore Version: 1.5.92
 END RequestId: ...
 REPORT RequestId: ... Duration: 217 ms Billed Duration: 300 ms 
   Memory Size: 1536 MB Max Memory Used: 20 MB
