@@ -155,7 +155,7 @@ REPORT RequestId: ... Duration: 217 ms Billed Duration: 300 ms
 ```
 
 ## Run lambda with role
-Make sure you have deployed the role to AWS, and replaced or set the variables `${ACCOUNT_ID}`, `${AWS_ROLE}`, `${AWS_REGION}`. The main part of the script is the aws sts assume-role, which generates new API access keys, which will be sent to Docker when it executes the container with your lambda function.
+Make sure you have deployed the role to AWS, and replaced or set the variables `${ACCOUNT_ID}`, `${ROLENAME}`, `${AWS_REGION}`. The main part of the script is the aws sts assume-role, which generates new API access keys, which will be sent to Docker when it executes the container with your lambda function.
 
 ```bash
 temp_role=$( aws sts assume-role \
